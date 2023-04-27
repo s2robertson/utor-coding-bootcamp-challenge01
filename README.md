@@ -16,4 +16,5 @@ The original files (including all pictures) were provided by University of Toron
 ## License
 MIT
 
+## Screenshot
 ![A screenshot of the homepage](/Horiseon-Homepage-Screenshot.png)
