@@ -11,13 +11,13 @@ body {
 
 /* I'm keeping header as a class selector, rather than an element selector for the sake of uniformity.
  * It's less likely to run into specificity problems this way. */
-.header {
+header {
     padding: 20px;
     color: #ffffff;
     background-color: #2a607c;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
@@ -27,29 +27,29 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     margin-right: 5px;
     float: right;
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav li {
+header nav li {
     display: inline-block;
 }
 
-.header nav a {
+header nav a {
     color: #ffffff;
     display: block;
     padding: 15px;
     text-decoration: none;
 }
 
-.header nav a:hover, 
-.header nav a:focus {
+header nav a:hover, 
+header nav a:focus {
     text-decoration: underline;
 }
 
@@ -74,13 +74,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content article {
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -88,16 +88,16 @@ p {
     background-color: #0072bb;
 }
 
-.content article img {
+main article img {
     max-height: 200px;
 }
 
-.content article h2 {
+main article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -108,28 +108,28 @@ p {
     background-color: #2a607c;
 }
 
-.benefits section {
+aside section {
     margin-bottom: 32px;
 }
 
-.benefits section h2 {
+aside section h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits section img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
