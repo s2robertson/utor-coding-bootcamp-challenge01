@@ -9,8 +9,11 @@ body {
     background-color: #d9dcd6;
 }
 
-/* I'm keeping header as a class selector, rather than an element selector for the sake of uniformity.
- * It's less likely to run into specificity problems this way. */
+p {
+    font-size: 16px;
+}
+
+/* General header styles */
 header {
     padding: 20px;
     color: #ffffff;
@@ -23,10 +26,14 @@ header h1 {
     font-size: 48px;
 }
 
-.seo {
+/* Three letters 'seo' should be a slightly different color.
+ * There's very little contrast between the span and the rest of the header, 
+ * but there is contrast with the background. */
+header h1 span {
     color: #d9dcd6;
 }
 
+/* Header navigation */
 header nav {
     margin-right: 5px;
     float: right;
@@ -53,10 +60,7 @@ header nav a:focus {
     text-decoration: underline;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* The big central image */
 .banner {
     height: 800px;
     width: 100%;
@@ -64,6 +68,7 @@ p {
     margin-bottom: 25px;
 }
 
+/* The smaller images (inside main) */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,6 +79,7 @@ p {
     margin-left: 25px;
 }
 
+/* The central articles */
 main {
     width: 75%;
     display: inline-block;
@@ -97,6 +103,7 @@ main article h2 {
     font-size: 36px;
 }
 
+/* The sidebar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -123,6 +130,7 @@ aside section img {
     max-width: 150px;
 }
 
+/* General footer styles */
 footer {
     padding: 30px;
     clear: both;
