@@ -9,13 +9,15 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+/* I'm keeping header as a class selector, rather than an element selector for the sake of uniformity.
+ * It's less likely to run into specificity problems this way. */
+.header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+.header h1 {
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
@@ -25,21 +27,21 @@ header h1 {
     color: #d9dcd6;
 }
 
-header nav {
+.header nav {
     margin-right: 5px;
     float: right;
     font-size: 20px;
 }
 
-header nav ul {
+.header nav ul {
     list-style-type: none;
 }
 
-header nav li {
+.header nav li {
     display: inline-block;
 }
 
-header nav a {
+.header nav a {
     display: block;
     padding: 15px;
 }
