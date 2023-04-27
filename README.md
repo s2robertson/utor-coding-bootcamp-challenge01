@@ -8,10 +8,12 @@ the CSS, and made some improvements to the page's accessibility (adding image al
 areas, etc.).
 
 ## Usage
-N/A
+[See it live.](https://s2robertson.github.io/utor-coding-bootcamp-challenge01/)
 
 ## Credits
 The original files (including all pictures) were provided by University of Toronto Coding Bootcamp.
 
 ## License
 MIT
+
+![A screenshot of the homepage](/Horiseon-Homepage-Screenshot.png)
