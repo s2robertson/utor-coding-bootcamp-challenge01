@@ -45,10 +45,12 @@ body {
     color: #ffffff;
     display: block;
     padding: 15px;
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
+.header nav a:hover, 
+.header nav a:focus {
+    text-decoration: underline;
 }
 
 p {
